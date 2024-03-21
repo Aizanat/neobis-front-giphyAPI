@@ -12,7 +12,7 @@ This project is a web application that allows users to search for GIF images usi
 
 ## Usage
 
-- Clone the repository: git clone https://github.com/your-username/giphyAPI.git
+- Clone the repository: git clone https://github.com/Aizanat/neobis-front-giphyAPI.git
 - Open the project directory in your preferred code editor.
 - Open index.html in your web browser.
 - Enter keywords in the search input field to search for GIF images.
