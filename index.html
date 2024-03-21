@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>giphyAPI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gif-icon">
+        <img
+          class="gif-icon__img"
+          src="https://gifer.b-cdn.net/static/media/logo-cube.18b0231393efcdf93111d5dd0737edb4.svg"
+          alt="GiphyAPI"
+        />
+        <span class="gif-icon__text">giphy api</span>
+      </div>
+      <div class="search">
+        <input type="text" id="search-input" placeholder="Your giphy" />
+        <button id="search-button">
+          <img class="search-icon" src="./img/search.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <div id="giphy-container"></div>
+    <div id="error-text"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
